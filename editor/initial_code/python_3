@@ -1,33 +1,9 @@
-def checkio(buildings):
+def checkio(time):
     #replace this for solution
-    return str(number) + " " + str(height)
+    return readable_time
 
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
-    assert checkio([
-        [0, 0, 1, 0],
-        [1, 0, 1, 0],
-        [1, 1, 1, 0],
-        [1, 1, 1, 1]
-    ]) == "3 4", "Common"
-    assert checkio([
-        [0, 0, 0, 0],
-        [0, 0, 0, 0],
-        [0, 0, 0, 0],
-        [0, 0, 0, 1]
-    ]) == "4 1", "Cabin in the wood"
-    assert checkio([
-        [1, 0, 0, 0, 0],
-        [1, 1, 0, 0, 0],
-        [1, 1, 1, 0, 0],
-        [1, 1, 1, 1, 0],
-        [1, 1, 1, 1, 1]
-    ]) == "1 5", "Triangle"
-    assert checkio([
-        [0, 0, 0, 1, 0, 0, 0],
-        [0, 0, 1, 1, 1, 0, 0],
-        [0, 1, 1, 1, 1, 1, 0],
-        [1, 1, 1, 1, 1, 1, 1],
-        [1, 1, 1, 1, 1, 1, 1],
-        [1, 1, 1, 1, 1, 1, 1]
-    ]) == "4 6", "Pyramid"
+    assert checkio("01.01.2000 00:00") == "1 January 2000 year 0 hours 0 minutes", "Millenium"
+    assert checkio("09.05.1945 06:30") == "9 May 1945 year 6 hours 30 minutes", "Victory"
+    assert checkio("20.11.1990 03:55") == "20 November 1990 year 3 hours 55 minutes", "Somebody was born"
