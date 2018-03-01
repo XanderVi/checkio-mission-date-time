@@ -27,6 +27,10 @@ TESTS = {
         {
             "input": "09.07.1995 16:50",
             "answer": "9 July 1995 year 16 hours 50 minutes"
+        },
+	{
+            "input": "11.04.1812 01:01",
+            "answer": "11 April 1812 year 1 hour 1 minute"
         }
     ]
 }
