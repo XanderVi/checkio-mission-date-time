@@ -1,6 +1,6 @@
 "use strict";
 
-function checkio(date_time) {
+function dateTime(date) {
     // your code here
     return 0;
 }
@@ -9,7 +9,7 @@ var assert = require('assert');
 if (!global.is_checking) {
 
     // These "asserts" are used for self-checking and not for an auto-testing
-    assert.equal(checkio("01.01.2000 00:00"), "1 January 2000 year 0 hours 0 minutes")
-    assert.equal(checkio("09.05.1945 06:30"), "9 May 1945 year 6 hours 30 minutes")
+    assert.equal(dateTime("01.01.2000 00:00"), "1 January 2000 year 0 hours 0 minutes")
+    assert.equal(dateTime("09.05.1945 06:30"), "9 May 1945 year 6 hours 30 minutes")
     console.log("Coding complete? Click 'Check' to earn cool rewards!");
 }
