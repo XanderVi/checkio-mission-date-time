@@ -7,6 +7,8 @@ function dateTime(date) {
 
 var assert = require('assert');
 if (!global.is_checking) {
+    console.log('Example:')
+    console.log(dateTime('01.01.2000 00:00'))
 
     // These "asserts" are used for self-checking and not for an auto-testing
     assert.equal(dateTime("01.01.2000 00:00"), "1 January 2000 year 0 hours 0 minutes")
