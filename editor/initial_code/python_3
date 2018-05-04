@@ -1,4 +1,4 @@
-def date_time(time):
+def date_time(time: str) -> str:
     #replace this for solution
     return time
 
