@@ -36,8 +36,8 @@ dateTime("21.10.1999 18:01") == "21 October 1999 year 18 hours 1 minute"
 <pre class="brush: python">date_time("01.01.2000 00:00") == "1 January 2000 year 0 hours 0 minutes"
 date_time("19.09.2999 01:59") == "19 September 2999 year 1 hour 59 minutes"
 date_time("21.10.1999 18:01") == "21 October 1999 year 18 hours 1 minute"
-# NB: words "hour" and "minute" are used only when time is 01:mm (1 hour) or hh:01 (1 minute).
-# In other cases it should be used "hours" and "minutes".
+# NB: words "hour" and "minute" are to be used only when time is 01:mm (1 hour) or hh:01 (1 minute).
+# In other cases "hours" and "minutes" should be used.
 </pre>
 {% endif %}
 </div>
@@ -52,7 +52,7 @@ date_time("21.10.1999 18:01") == "21 October 1999 year 18 hours 1 minute"
 <!-- Here you can explain some constraints for input-->
 <!-- The section is optional -->
 <p><strong>Precondition</strong>:<br>
-    0 <  date <= 31<br>
+    0 <  day <= 31<br>
     0 <  month <= 12<br>
     0 <  year <= 3000<br>
     0 <= hours < 24<br>
