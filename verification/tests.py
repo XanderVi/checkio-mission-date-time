@@ -15,8 +15,8 @@ TESTS = {
             "answer": "1 January 2000 year 0 hours 0 minutes"
         },
         {
-            "input": "09.05.1945 06:30",
-            "answer": "9 May 1945 year 6 hours 30 minutes"
+            "input": "09.05.1945 06:07",
+            "answer": "9 May 1945 year 6 hours 7 minutes"
         }
     ],
     "Extra": [
@@ -25,8 +25,8 @@ TESTS = {
             "answer": "20 November 1990 year 3 hours 55 minutes"
         },
         {
-            "input": "09.07.1995 16:50",
-            "answer": "9 July 1995 year 16 hours 50 minutes"
+            "input": "09.07.1995 16:01",
+            "answer": "9 July 1995 year 16 hours 1 minute"
         },
 	{
             "input": "11.04.1812 01:01",
